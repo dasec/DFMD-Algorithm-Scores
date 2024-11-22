@@ -28,8 +28,8 @@ The algorithm implemented is based on the **Differential Anomaly Detection Algor
 
 The repository includes the following files:
 
-- **`dfmd1_anomaly_scores_vae_sub_cleaned.csv`**: Contains algorithm scores for DFMD 1.
-- **`dfmd2_anomaly_scores_vae_sub_cleaned.csv`**: Contains algorithm scores for DFMD 2.
+- **`dfmd1_algorithm_scores.csv`**: Contains algorithm scores for DFMD 1.
+- **`dfmd2_algorithm_scores.csv`**: Contains algorithm scores for DFMD 2.
 
 ### Data Columns
 
