@@ -1,4 +1,4 @@
-trial_id,suspected_type,normalized_score
+trial_id,suspected_type,score
 ea9831b6-57d4-4e45-ba53-6855bf670fb6,retouching,0.48127822586892244
 ff157485-4568-4574-b819-e88500894925,bonafide_reference,0.5073695681482636
 33374597-f765-43f3-99ef-0becc0792206,morphing,0.2607681646310813

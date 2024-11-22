@@ -1,4 +1,4 @@
-trial_id,suspected_type,normalized_score
+trial_id,suspected_type,score
 0a342167-ea9d-4c1d-9fed-f7f626485c66,bonafide_reference,0.46019063651755715
 75f4023f-78b8-4f98-af76-57bcbe778db4,bonafide_reference,0.5011377705540846
 11b2320d-5570-4e6e-9ae5-13a01aeba42d,morphing,0.37558370218933923
