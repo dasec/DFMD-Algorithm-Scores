@@ -1,6 +1,6 @@
 # Algorithm Data for the Darmstadt Face Manipulation Detection Tests
 
-Algorithm data from the **Darmstadt Face Manipulation Detection Tests** (DFMD) used in the paper [*Conditional Face Image Manipulation Detection: Combining Algorithm and Human Examiner Decisions*](https://dl.acm.org/doi/10.1145/3658664.3659649), published in *ACM IH&MMSec 2024*.
+Algorithm data from the **Darmstadt Face Manipulation Detection Tests** used in the paper [*Conditional Face Image Manipulation Detection: Combining Algorithm and Human Examiner Decisions*](https://dl.acm.org/doi/10.1145/3658664.3659649), published in *ACM IH&MMSec 2024*.
 
 <p align="center">
   <img src="graphics/fusion_overview_diagram.png" alt="Conditional Fusion Overview" width="500"/>
@@ -8,7 +8,7 @@ Algorithm data from the **Darmstadt Face Manipulation Detection Tests** (DFMD) u
 
 ## Introduction
 
-This repository provides algorithm scores for each trial from the Darmstadt Face Manipulation Detection Tests (DFMD 1 and DFMD 2), as referenced in the paper *Conditional Face Image Manipulation Detection: Combining Algorithm and Human Examiner Decisions*.
+This repository provides algorithm scores for each trial from the **Darmstadt Face Manipulation Detection Tests** (DFMD 1 and DFMD 2) and coresponds to the algorithm scores used in [1]. 
 
 The available files contain only algorithm scores. The human examiner scores and data used in [2] will be made available once this paper is published. Trial IDs are consistent across datasets, allowing cross-referencing of human and algorithm scores.
 
@@ -16,12 +16,11 @@ The available files contain only algorithm scores. The human examiner scores and
 
 ## Algorithm
 
-The algorithm implemented is based on the **Differential Anomaly Detection Algorithm** proposed in [3]. It leverages a **Variational Autoencoder (VAE)** with a subtraction fusion scheme to enhance detection capabilities. A high-level overview of the method is included below.
+The algorithm implemented is based on the **Differential Anomaly Detection Algorithm** proposed in [3]. It leverages a **Variational Autoencoder (VAE)** with a subtraction fusion scheme. Hence it is only trained on bona fide (i.e., non-manipulated) face images. A high-level overview of the method is included below.
 
 <p align="center">
   <img src="graphics/architecture_differential_detection.png" alt="Differential Anomaly Detection Overview" width="500"/>
 </p>
-
 
 ---
 
@@ -44,7 +43,7 @@ The repository includes the following files:
 
 ## Citation
 
-If you use this data or our work usefull, consider citing the following works:
+If you use this data or find our work usefull, consider citing the following papers:
 
 [1] **Conditional Face Image Manipulation Detection: Combining Algorithm and Human Examiner Decisions**
 
@@ -69,7 +68,6 @@ If you use this data or our work usefull, consider citing the following works:
  month={Nov}
 }
 ```
-
 
 [3] **Differential Anomaly Detection for Facial Images**
 
