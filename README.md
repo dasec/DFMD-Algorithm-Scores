@@ -19,7 +19,7 @@ The available files contain only algorithm scores. The human examiner scores and
 The algorithm implemented is based on the **Differential Anomaly Detection Algorithm** proposed in [3]. It leverages a **Variational Autoencoder (VAE)** with a subtraction fusion scheme to enhance detection capabilities. A high-level overview of the method is included below.
 
 <p align="center">
-  <img src="graphics/architecture_differential_detection.pdf" alt="Differential Anomaly Detection Overview" width="500"/>
+  <img src="graphics/architecture_differential_detection.png" alt="Differential Anomaly Detection Overview" width="500"/>
 </p>
 
 
